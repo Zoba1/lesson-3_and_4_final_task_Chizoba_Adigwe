@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(128, 26, 26);
+}
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+}
+
+.main-container {
+    margin-top: 70px;
+    overflow-x: hidden;
+}
+
+.my-flex {
+    display: flex;
+}
+
+main .main-left {
+    width: 0%;
+}
+
+main .main-right {
+    width: 100%;
+}
+
+figure img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media screen and (width >=768px) {
+    main .main-left {
+        width: 20%;
+    }
+    
+    main .main-right {
+        width: 80%;
+    }
+    
+}
+
+.main-left {
+    background-color: rgb(36, 5, 5);
+}
+
+.main-right {
+    background-color: rgb(31, 5, 5);
+}
+
+.my-name {
+    color: rgb(241, 143, 126);
+}
+
+.name {
+    color: tomato;
+}
+
+.write-up {
+    color: aliceblue;
+}
+
+.par-1, .fas {
+    color: tomato;
+}
+
+.par-2 {
+    color: aliceblue;
+}
+
+.heading-services {
+    color: tomato;
+}
+
+.experience {
+    color: tomato;
+}
+
+.experience-writeup {
+    color: aliceblue;
+}
+
+.services {
+    color: aliceblue;
+}
+
+.fas {
+    font-size: 1.3rem;
+}
+
+.zob-skill {
+    background-color: rgba(17, 0, 0, 0.5) !important;
+    transition: all .5s ease-in-out;
+}
+
+.zob-skill:hover {
+    background-color: rgba(17, 0, 0, 1) !important;
+    scale: 1.05;
+
+}
+
+.project {
+    color: tomato;
+
+}
